@@ -126,16 +126,16 @@ class ExportDialog
         this.parametersDiv = null;
 
         this.exporters = [
-            /*new ModelExporterUI ('Wavefront (.obj)', FileFormat.Text, 'obj'),
+            new ModelExporterUI ('Wavefront (.obj)', FileFormat.Text, 'obj'),
             new ModelExporterUI ('Stereolithography Text (.stl)', FileFormat.Text, 'stl'),
             new ModelExporterUI ('Stereolithography Binary (.stl)', FileFormat.Binary, 'stl'),
             new ModelExporterUI ('Polygon File Format Text (.ply)', FileFormat.Text, 'ply'),
-            new ModelExporterUI ('Polygon File Format Binary (.ply)', FileFormat.Binary, 'ply'),*/
+            new ModelExporterUI ('Polygon File Format Binary (.ply)', FileFormat.Binary, 'ply'),
             new ModelExporterUI ('glTF Text (.gltf)', FileFormat.Text, 'gltf'),
-            /*new ModelExporterUI ('glTF Binary (.glb)', FileFormat.Binary, 'glb'),
+            new ModelExporterUI ('glTF Binary (.glb)', FileFormat.Binary, 'glb'),
             new ModelExporterUI ('Object File Format Text (.off)', FileFormat.Text, 'off'),
             new ModelExporterUI ('Rhinoceros 3D (.3dm)', FileFormat.Binary, '3dm'),
-            new ModelExporterUI ('Dotbim (.bim)', FileFormat.Text, 'bim')*/
+            new ModelExporterUI ('Dotbim (.bim)', FileFormat.Text, 'bim')
         ];
     }
 
